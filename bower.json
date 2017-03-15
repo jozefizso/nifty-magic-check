@@ -1,9 +1,10 @@
 {
-  "name": "magic-check",
-  "description": "Beautify Radio and Checkbox with pure CSS",
+  "name": "nifty-magic-check",
+  "description": "Beautify Radio and Checkbox with pure CSS - fork for use in Nifty, responsive admin dashboard template.",
   "main": "",
   "authors": [
-    "forsigner"
+    "forsigner",
+    "ThemeOn"
   ],
   "license": "MIT",
   "keywords": [
@@ -12,9 +13,10 @@
     "checkbox",
     "css3",
     "pure",
-    "css"
+    "css",
+    "nifty"
   ],
-  "homepage": "https://github.com/forsigner/magic-check",
+  "homepage": "https://github.com/jozefizso/nifty-magic-check",
   "moduleType": [],
   "ignore": [
     "**/.*",

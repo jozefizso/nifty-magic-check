@@ -1,13 +1,14 @@
 {
-  "name": "magic-check",
-  "version": "1.0.3",
-  "description": "Beautify Radio and Checkbox with pure CSS",
+  "name": "nifty-magic-check",
+  "version": "2.6.0",
+  "description": "Beautify Radio and Checkbox with pure CSS - fork for use in Nifty, responsive admin dashboard template.",
   "keywords": [
     "beautify",
     "radio",
     "checkbox",
     "css3",
-    "pure css"
+    "pure css",
+    "nifty"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -18,12 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forsigner/magic-check.git"
+    "url": "git+https://github.com/jozefizso/nifty-magic-check.git"
   },
   "author": "forsigner",
+  "contributors": [
+    "ThemeOn"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forsigner/magic-check/issues"
+    "url": "https://github.com/jozefizso/nifty-magic-check/issues"
   },
-  "homepage": "https://github.com/forsigner/magic-check#readme"
+  "homepage": "https://github.com/jozefizso/nifty-magic-check#readme"
 }

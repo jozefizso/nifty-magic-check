@@ -1,10 +1,10 @@
 .magic-checkbox + label {
   &:before {
-    border-radius: 3px;
+    border-radius: 0;
   }
   &:after {
-    top: 2px;
-    left: 7px;
+    top: 1px;
+    left: 5px;
     box-sizing: border-box;
     width: 6px;
     height: 12px;
@@ -23,9 +23,4 @@
     background: $magic-main-color;
   }
 }
-.magic-checkbox:checked[disabled] + label {
-  &:before {
-    border: $magic-disabled-checked-color;
-    background: $magic-disabled-checked-color;
-  }
-}
+

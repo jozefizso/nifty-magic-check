@@ -1,4 +1,8 @@
-# Magic-check
+# Magic-check (fork for Nifty Admin Template)
+
+> This repository contains fork of [magic-check](https://github.com/forsigner/magic-check)
+> modified for use in [Nifty - Responsive Admin Template](https://wrapbootstrap.com/theme/nifty-responsive-admin-template-WB0048JF7)
+
 Beautify Radio and Checkbox with pure CSS.
 
 ### Demo
@@ -6,13 +10,13 @@ Beautify Radio and Checkbox with pure CSS.
 [Demo](http://forsigner.com/magic-check)
 
 ### Install
-- bower: `bower install --save magic-check`
-- npm: `npm install --save magic-check`
+- npm: `npm install --save nifty-magic-check`
+- yarn: `yarn add nifty-magic-check`
 
 ### Usage
 
 ```html
-<link rel="stylesheet" href="bower_components/magic-check/css/magic-check.css">
+<link rel="stylesheet" href="node_modules/magic-check/css/magic-check.css">
 ```
 
 **Checkbox**
@@ -71,8 +75,11 @@ Beautify Radio and Checkbox with pure CSS.
 - Firefox
 - Safari
 - Opera
-- IE9 && IE9+
+- IE9 & IE9+
 
+### Release Info
+
+Based on **magic-check** v1.0.3 and **Nifty - Responsive Admin Template** v2.6.0
 
 ### License
 

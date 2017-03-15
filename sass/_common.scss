@@ -18,13 +18,19 @@
   cursor: not-allowed;
 }
 
+.input-group-addon{
+    > .magic-radio + label, > .magic-checkbox + label {
+        display: block;
+    }
+}
+
 .magic-radio + label,
 .magic-checkbox + label {
   position: relative;
-  display: block;
-  padding-left: 30px;
+  display: inline-block;
   cursor: pointer;
   vertical-align: middle;
+  margin: 0;
 
   &:hover {
     &:before {
@@ -49,11 +55,33 @@
     content: '';
   }
 }
+.magic-radio + label{
+    min-width: $magic-radio-size;
+    min-height: $magic-radio-size;
+    &:not(:empty){
+        padding: 0 $magic-radio-size + 5px !important;
+    }
+}
+.magic-checkbox + label{
+    min-width: $magic-checkbox-size;
+    min-height: $magic-checkbox-size;
+    &:not(:empty){
+        padding: 0 $magic-checkbox-size + 5px !important;
+    }
+}
+
+.btn-group{
+    .magic-radio + label, .magic-checkbox + label{
+        vertical-align: baseline;
+        min-height: 1em
+    }
+}
+
 
 .magic-radio[disabled] + label,
 .magic-checkbox[disabled] + label {
   cursor: not-allowed;
-  color: $magic-disabled-color;
+  opacity: .5;
   &:hover,
   &:before,
   &:after {
@@ -61,12 +89,8 @@
   }
   &:hover {
     &:before {
-      border: 1px solid $magic-disabled-color;
       animation-name: none;
     }
-  }
-  &:before {
-    border-color: $magic-disabled-color;
   }
 }
 
